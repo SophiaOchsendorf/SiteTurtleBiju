@@ -1,0 +1,327 @@
+// @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+// Inicio Javascript do card
+
+// fim do script card
+
+</script>
+html, body{
+    background-color: white;
+    font-family: 'Inter', sans-serif
+    color: black;
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+/* cor links*/
+a:active {
+    color: #006633;
+    text-decoration: none;
+    background-color: trasnparente;
+    -webkit-text-decration-skip: objects;
+}
+
+/*video index*/
+.bg_video{
+    min-width: 100%;
+    min-height: 100%
+    width: 100%;
+    height: 100%;
+}
+
+/*menu*/
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+    color: #006633 !important;
+}
+
+/*seta para o topo*/
+.clima{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 90px;
+    right: 10px
+    color: #ffffff;
+    text-shadow: 0 0 3px #000000, o o 5px #1e1d27;
+    font-size: 10px;
+    z-index: 550;
+}
+
+/*Whatsapp*/
+.whatsapp´link{
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 30px;
+    background-color: #25d366
+    color: #ffffff !Important;
+    color #fffff !important
+    border radius:50px
+    texto-aling: center;
+    font-size: 30;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+
+}
+
+.whatsapp-link:hover{
+    color: #006633 !important
+}
+
+.fa-whatssapp{
+    margin-top:16px;
+
+}
+
+/*lista de serviços*/
+ul.b{
+    list-style-type: Square;
+    color:#006633;
+    font-size: 30px;
+}
+
+/*hr títulos*/
+hr.new4{
+    border: 3px solid #99E89D;
+    width: 20%;
+}
+
+/*Fim WhatsApp*/
+.site-footer {
+    background-color: ##99E89D;
+    padding: 45 0 20px
+    font_size: 15px;
+    line height: 24px;
+}
+
+.site-footer hr.small {
+    margin:20px 0
+}
+
+.site-footer h6 {
+    color:#fff;
+    font-size:16px;
+    text-trasnform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+}
+
+.site-footer h3 {
+    color:#fff;
+    font-size:25px;
+    text-transform:uppercase;
+    margin: top 5px;
+    letter-spacing:2px
+}
+
+.site-footer a {
+    color:#f2f2f2;
+}
+
+.site-footer a:hover {
+    color:#006633;
+    text-decoration:none;
+}
+
+.footer-links {
+    padding-left:0;
+    list-style:none
+}
+
+.footer-links a {
+    color:#006633;
+}
+
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover{
+color:#006633;
+text-decoration:none;
+}
+
+
+.footer-links.inline li {
+    display:inline-block
+}
+
+.site-footer .social-icons a {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#f2f2f2
+}
+
+
+copyright-text {
+    margin:0
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom:30px
+    }
+}
+@media (max-width:767px) {
+    .site-footer
+    {
+        padding-bottom:0
+    }
+}
+
+site.footer .copyrinhgt-text,.site-footer .social-icons
+{
+    text-aling:center
+}
+
+}
+.social-icon {
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+}
+
+.social-icons li {
+    display:inline-block;
+    margin-bottom:4px
+}
+
+.social-icons li.title {
+    margin-right:15px;
+    text-transform:uppercase;
+    color:#ed3237;
+    font-height:700;
+    font_size:13px
+}
+
+.social-icons a `{
+    background color:#eceeef;
+    color:ed3237;
+    font:size 16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    width:44px;
+    height: 44px;
+    text-aling:center;
+    margin-right:8px;
+    border-radius:100%;
+    webkit-transition:all .linear;
+    -o-transition:all. linear: ;
+}
+
+.social-icon a:active,.social-iconsa:focus,.social-icons :hover {
+    color#fff;background-color:#F7ab18
+}
+
+.social-icons.size-sm aaa{
+
+    line-height:34px;
+    height:34px;
+    widh:34px;
+    font-size:14xp
+}
+
+social-iconsa.facebook:hover {
+    background-color#3b5998
+}
+
+.social-icons a.twitter:hover{
+background color:00aced
+}
+.social-icons a.linkedin:hover`{
+    background-color:#007bb6
+}
+
+social-icons a. instagram;hover{
+    background -image: linear-gradient(to right,#fa7eqe, #d652976 , #962fbf,#4f5bd5);
+}
+
+@media (max-width:767px){
+    .social-icons li.title
+}
+display:block;
+margin-right;0;
+front-weight:600
+
+/* Fim do rodapé*/
+/* Fonte menu texto logo*/
+@media (mas-width:600px){
+    ;fontCel
+    {
+        font-size: 14px;
+        font-weight:600
+    }
+}
+
+/* inicio css card */
+*{
+    box-sizing: border-box;
+}
+
+div.polaroid{
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+
+.zoom {
+    padding: 50px;
+    background-color: #f3f3f3;
+    transition: transform .2s;
+    width: 200px;
+    heigth: 200px;
+    margin: 0 auto;
+}
+
+
+.zoom:hover {
+    -ms-transform: scale(1.5);
+/* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.5);
+}
+.fontCard {
+    font-size: 12px;
+    text-shadow: 0 0 3px #000000, 0 0 5px #1e1d27;
+    color:white;
+}
+
+/* fim css card */
+
+/* Animação contato */
+.slideanim {visibility:hidden;}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration; 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slide {
+    0% {
+        opacity; 0;
+        transform; translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit_transform: translateY(70%);
+    }
+    100% {
+        opacity: 1s;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+/* Botão Enviar */
+.btnAbrir:hover {
+    color: #fff;
+    background-color: #f7ab18;
+    border-color: #f7ab18;
+} 
+/* Fim do Botão Enviar */
